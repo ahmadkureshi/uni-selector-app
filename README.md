@@ -53,4 +53,9 @@ Access the app at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 ## Additional Notes
 
 - Use `MAIL_MAILER=log` in `.env` to test mail in the logs.
-``
+- Admin Credentials are 
+- Email: admin@uniselector.com 
+- Password: uniselector7 
+- ( you can replace the default password on seeder class and run the command 
+- php artisan migrate:refresh --seed
+
